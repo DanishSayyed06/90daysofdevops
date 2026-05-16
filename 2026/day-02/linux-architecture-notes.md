@@ -29,11 +29,11 @@
 - Zombie    :  Process finished but parent process hasn't read its exit status yet
 
 # 5 Commands used daily 
-- ps   : View running processes
-- top  : Monitor CPU and memory usage
-- journalctl  : View system logs
-- systemctl   : Manage services
-- kill    : To kill process
+- `ps`   : View running processes
+- `top`  : Monitor CPU and memory usage
+- `journalctl`  : View system logs
+- `systemctl`   : Manage services
+- `kill`    : To kill process
 
 ## Why This Matters
 - For troubleshooting Linux
