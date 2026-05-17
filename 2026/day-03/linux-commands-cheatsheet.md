@@ -1,5 +1,8 @@
 ## Day 03 – Linux Commands  Cheatsheet
 
+<img width="1024" height="1024" alt="magnific__day-03-linux-commands-cheatsheetprocess-management__41762" src="https://github.com/user-attachments/assets/b511c6d3-497d-4e66-8045-60b7c4c3e06d" />
+
+
 ## Process Management
 
 -   `top`         :  To monitor Cpu amd Memory usage 
