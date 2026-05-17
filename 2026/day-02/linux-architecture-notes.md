@@ -1,4 +1,8 @@
 ## Day 02 Linux Architecture Notes
+
+
+<img width="2752" height="1536" alt="Gemini_Generated_Image_oh6r7roh6r7roh6r" src="https://github.com/user-attachments/assets/24a5bb36-26e4-45cf-8e01-ca1168c28629" />
+
 - **Hardware**
     - The physical component where OS is installed.
 - **Kernal**
