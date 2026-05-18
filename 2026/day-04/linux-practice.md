@@ -9,7 +9,7 @@
 
 
 
-- `top`                         : To check
+- `top`                         : To monitor Cpu amd Memory usage
 
   <img width="1600" height="829" alt="WhatsApp Image 2026-05-18 at 12 02 13 AM (3)" src="https://github.com/user-attachments/assets/01d7829f-a08d-4056-bf4a-5d80d200906a" />
 
