@@ -53,4 +53,4 @@
   - How to Stop Sevice
   - How to Check Logs of Service
   - How to Check Logs with last 10 lines
-  - How to Check PID os Service 
+  - How to Check PID of Service 
