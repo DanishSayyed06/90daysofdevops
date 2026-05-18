@@ -1,5 +1,8 @@
 ## 90 Days Of Devops - Learning Plan
 
+<img width="1024" height="1024" alt="magnific__90-days-of-devops-learning-plancurrent-levelstuden__41763" src="https://github.com/user-attachments/assets/2e1c2f0a-e559-4a66-81b4-93e73b066048" />
+
+
 ## Current Level 
 - Student 
 - new to devops 
