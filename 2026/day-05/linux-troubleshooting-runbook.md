@@ -13,7 +13,11 @@ These habits reduce downtime and prevent guesswork in production.
 
 ## Targeted Service
 
--   Docker 
+ <img width="225" height="225" alt="images" src="https://github.com/user-attachments/assets/e0ff0485-cd7d-42a0-82ee-89cbccf91a8b" />
+
+ -   Docker 
+
+
 
 ## Environment Basics
 
