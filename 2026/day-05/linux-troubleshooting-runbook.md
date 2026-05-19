@@ -47,7 +47,7 @@ Glimpse 1 : First command make directory succesfully
 
 <img width="1094" height="124" alt="Screenshot 2026-05-19 195828" src="https://github.com/user-attachments/assets/4e0a959a-693e-486f-b69d-666e7c6284a4" />
 
-Glimpse 2 :  opied the files from /etc/hosts. Filesystem is writable 
+Glimpse 2 :  Copied the files from /etc/hosts. Filesystem is writable 
 
 
 ## CPU / Memory 
@@ -56,17 +56,22 @@ Glimpse 2 :  opied the files from /etc/hosts. Filesystem is writable
 
 <img width="664" height="121" alt="Screenshot 2026-05-19 200734" src="https://github.com/user-attachments/assets/fa8cbd10-6db5-4779-919f-bb469dac3797" />
 
+Glimpse : Cpu and Memory is completely running fine  
+
 
 - Command : `free -h`
 
 <img width="963" height="151" alt="Screenshot 2026-05-19 195909" src="https://github.com/user-attachments/assets/06367723-7ca3-45e8-99ef-c95b609b06b5" />
 
+Glimpse : Sufficient memory 
 
 ## Disk / IO 
 
 - Command : `df -h`
 
   <img width="987" height="390" alt="Screenshot 2026-05-19 200828" src="https://github.com/user-attachments/assets/e63d9f89-eefd-4931-ba45-f1d9f9272326" />
+
+Glimpse : Have enough space available 
 
 
 
@@ -75,20 +80,22 @@ Glimpse 2 :  opied the files from /etc/hosts. Filesystem is writable
   <img width="1073" height="300" alt="Screenshot 2026-05-19 201205" src="https://github.com/user-attachments/assets/cb291564-3e8d-4ec0-a7b2-ea571f0ced17" />
 
 
-To run this command have to install systat first
-
+Glimpse  : To run this command have to install systat first
 
 ## Network
 
-- Command : `sudo ss -tulpn | grep  sshd`
+- Command : `sudo ss -tulpn | grep  docker`
 
   <img width="1059" height="110" alt="Screenshot 2026-05-19 201345" src="https://github.com/user-attachments/assets/5d978ad1-90fd-4731-b851-4158f2895023" />
 
+Glimpse : Docker run on 8888 port 
 
 
 - Command : `nc -zv localhost 8888`
 
   <img width="660" height="76" alt="Screenshot 2026-05-19 203711" src="https://github.com/user-attachments/assets/bc93df6c-cd86-4784-b9f8-9cd296bde42b" />
+
+Glimpse : Connected successfully
 
 
 ## Logs
@@ -97,12 +104,16 @@ To run this command have to install systat first
 
   <img width="1918" height="925" alt="Screenshot 2026-05-19 201541" src="https://github.com/user-attachments/assets/77b0cce6-01e3-418b-bfae-f9e1bf9210ff" />
 
+Glimpse : Last 50 line logs with no errors and warning
+
 
   
 
 - Command :`tail -n 50 /var/log/auth.log `
 
 <img width="1898" height="988" alt="Screenshot 2026-05-19 201807" src="https://github.com/user-attachments/assets/6df56fcf-abf0-46e3-8fee-184b53318c6f" />
+
+Glimpse : Showed login attmpts no alerting activitys found 
 
 
 ## Quick outcome review
