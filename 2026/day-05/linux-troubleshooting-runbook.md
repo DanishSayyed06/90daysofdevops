@@ -52,7 +52,7 @@ Glimpse 2 :  Copied the files from /etc/hosts. Filesystem is writable
 
 ## CPU / Memory 
 
-- Command : `ps -o pid,pcpu,pmem,comm -p $(pidof sshd)`
+- Command : `ps -o pid,pcpu,pmem,comm -p $(pid of docker)`
 
 <img width="664" height="121" alt="Screenshot 2026-05-19 200734" src="https://github.com/user-attachments/assets/fa8cbd10-6db5-4779-919f-bb469dac3797" />
 
