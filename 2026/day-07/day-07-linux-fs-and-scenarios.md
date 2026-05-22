@@ -49,6 +49,11 @@
 - Optional third-party applications
 - I would use to checking manually installed apps
 
+## Hands-on task
+
+  <img width="890" height="581" alt="WhatsApp Image 2026-05-22 at 9 43 50 AM" src="https://github.com/user-attachments/assets/2317e363-e981-4280-81ed-5e46e4cfad40" />
+
+
 # Scenario-Based Practice 
 
 ## Scenario 1: Service Not Starting
