@@ -56,6 +56,3 @@ Solution : I google the error and coe to know that i have to give folder name at
 - Took HTTP Logs in access.log
 - Took Logs of Nginx and docker  
 
-
-
-
