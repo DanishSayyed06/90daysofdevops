@@ -87,6 +87,12 @@ Assign users:
 
 ### Task 5: Team Workspace
 
+<img width="760" height="87" alt="WhatsApp Image 2026-05-23 at 8 40 01 PM" src="https://github.com/user-attachments/assets/8ce29102-06cd-48c4-9b28-b954256348c4" />
+
+<img width="902" height="134" alt="WhatsApp Image 2026-05-23 at 9 42 53 PM" src="https://github.com/user-attachments/assets/c8e33f53-da83-43b6-baae-f9e36e6b4a8b" />
+
+
+
 1. Create user `nairobi` with home directory
 2. Create group `project-team`
 3. Add `nairobi` and `tokyo` to `project-team`
