@@ -18,7 +18,8 @@ Master file and directory ownership in Linux.
 
 Document: What's the difference between owner and group?
 
-* 
+* Owner : Has right to change permission of files
+* Group : Where users have access to shared files 
 
 ### Task 2: Basic chown Operations
 
@@ -123,4 +124,5 @@ In real DevOps scenarios, you need proper file ownership for:
 
 
 ## What I Learned
-
+* Difference between file owner and file group
+* How chown and chgrp work
