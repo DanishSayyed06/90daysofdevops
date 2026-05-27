@@ -6,7 +6,7 @@
 - My goals are very clear, I can see the fish eye 
 - For future i am heighly focus on my Devops Journey 
 
-## ### Processes & Services
+### Processes & Services
 
 - `ps aux` : To check all process 
 - `journalctl` : To check logs and find the root cause of a service failure 
