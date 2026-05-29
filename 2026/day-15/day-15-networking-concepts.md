@@ -20,6 +20,7 @@
 3. Run: `dig google.com` — identify the A record and TTL from the output
 
 
+<img width="779" height="491" alt="Screenshot 2026-05-29 200734" src="https://github.com/user-attachments/assets/bf484a8a-8e44-4ecd-81a9-16630a51cad9" />
 
 
 - Identified A record : 142.251.222.174
@@ -48,6 +49,7 @@ Example : `192.168.1.10`
 
 4. Run: `ip addr show` — identify which of your IPs are private
 
+<img width="1344" height="819" alt="Screenshot 2026-05-29 210007" src="https://github.com/user-attachments/assets/0d7b10fd-dcde-4c27-ae49-3c615dc7b2ff" />
 
 
 - Reserved for local host communication `127.0.0.1`
@@ -105,10 +107,11 @@ Example : `192.168.1.10`
 
 3. Run `ss -tulpn` — match at least 2 listening ports to their services
 
+<img width="1906" height="454" alt="Screenshot 2026-05-29 215352" src="https://github.com/user-attachments/assets/ce71cdd1-ab10-477a-a6cb-2632329b63f2" />
 
 
 
-- SSH   : Port 20 
+- SSH   : Port 22 
 - Ngnix : Port 80 
 
 
