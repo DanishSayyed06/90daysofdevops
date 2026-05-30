@@ -67,7 +67,9 @@ Example : `192.168.1.10`
 
 - /24 --> 254 usable host 
 - /16 --> 65,534 usable host 
-- /28 --> 14 usable host 
+- /28 --> 14 usable host
+- The first address is the network address it identifies the subnet itself, not a device
+- The last address is the broadcast address used to send a message to all devices on that subnet
 
 3. Explain in your own words: why do we subnet?
 
