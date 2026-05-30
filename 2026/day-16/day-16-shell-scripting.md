@@ -84,6 +84,7 @@ Create `server_check.sh` that:
 3. If `y` — runs `systemctl status <service>` and prints whether it's **active** or **not**
 4. If `n` — prints "Skipped."
 
+<img width="955" height="344" alt="Screenshot 2026-05-31 at 12 03 07 AM" src="https://github.com/user-attachments/assets/760de3cf-3581-4c3e-90a4-247526fd5ff5" />
 
 
 
