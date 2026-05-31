@@ -6,6 +6,11 @@
 2. Create `count.sh` that:
    - Prints numbers 1 to 10 using a for loop
 
+<img width="803" height="654" alt="Screenshot 2026-05-31 164506" src="https://github.com/user-attachments/assets/bc38c2fb-5478-48ee-b7cf-6c188a4aef20" />
+
+<img width="856" height="665" alt="Screenshot 2026-05-31 164455" src="https://github.com/user-attachments/assets/e71f2802-7017-4c83-8af6-5153ac61d32a" />
+
+
 ---
 
 ### Task 2: While Loop
@@ -13,6 +18,11 @@
    - Takes a number from the user
    - Counts down to 0 using a while loop
    - Prints "Done!" at the end
+
+<img width="570" height="675" alt="Screenshot 2026-05-31 165106" src="https://github.com/user-attachments/assets/63635666-d100-4b8d-91da-a4ed9afb46a8" />
+
+<img width="975" height="669" alt="Screenshot 2026-05-31 165055" src="https://github.com/user-attachments/assets/502cbdce-38d6-4aea-8238-4766da3a8822" />
+
 
 ---
 
@@ -22,14 +32,20 @@
    - Prints `Hello, <name>!`
    - If no argument is passed, prints "Usage: ./greet.sh <name>"
 
+<img width="889" height="662" alt="Screenshot 2026-05-31 175649" src="https://github.com/user-attachments/assets/5792bce1-6a10-46b4-b1e5-3b7a12b3ec00" />
+
+<img width="668" height="661" alt="Screenshot 2026-05-31 175701" src="https://github.com/user-attachments/assets/be094d51-e9e5-4643-9469-0728068957cc" />
 
 
-
+---
 
 2. Create `args_demo.sh` that:
    - Prints total number of arguments (`$#`)
    - Prints all arguments (`$@`)
    - Prints the script name (`$0`)
+<img width="848" height="695" alt="Screenshot 2026-05-31 180420" src="https://github.com/user-attachments/assets/4f5c74ba-7a10-44aa-8bb2-fcda5e61574e" />
+
+<img width="841" height="668" alt="Screenshot 2026-05-31 180449" src="https://github.com/user-attachments/assets/5c44670c-2bcd-412a-9bb4-3c609077f108" />
 
 
 ---
