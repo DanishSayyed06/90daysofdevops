@@ -60,6 +60,10 @@
 
 > Run as root: `sudo -i` or `sudo su`
 
+<img width="744" height="706" alt="Screenshot 2026-05-31 at 8 17 16 PM" src="https://github.com/user-attachments/assets/a8ced308-8c02-4f9f-897e-2cdf99e196c1" />
+
+<img width="1138" height="671" alt="Screenshot 2026-05-31 at 8 17 01 PM" src="https://github.com/user-attachments/assets/d6c5a8ae-8f60-4980-bbb3-dad04b604fe4" />
+
 ---
 
 ### Task 5: Error Handling
@@ -74,5 +78,10 @@ Example:
 ```bash
 mkdir /tmp/devops-test || echo "Directory already exists"
 ```
+
+<img width="952" height="666" alt="Screenshot 2026-05-31 at 8 42 04 PM" src="https://github.com/user-attachments/assets/23f4d577-b3bb-422d-8aaf-841bc0205249" />
+
+<img width="697" height="690" alt="Screenshot 2026-05-31 at 8 44 21 PM" src="https://github.com/user-attachments/assets/aa781aeb-09de-4070-99e9-c0955f9d62e0" />
+
 
 2. Modify your `install_packages.sh` to check if the script is being run as root — exit with a message if not.
