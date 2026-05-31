@@ -16,7 +16,9 @@
 
 
 **Document:** What happens if you remove the shebang line?
--  
+-  System may not use bash interpreter properly.
+
+
 
 --- 
 ### Task 2: Variables
