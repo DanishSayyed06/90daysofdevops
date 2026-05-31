@@ -85,3 +85,8 @@ mkdir /tmp/devops-test || echo "Directory already exists"
 
 
 2. Modify your `install_packages.sh` to check if the script is being run as root — exit with a message if not.
+
+<img width="841" height="663" alt="Screenshot 2026-05-31 at 9 11 17 PM" src="https://github.com/user-attachments/assets/ff4b55ae-bc85-4c55-8461-3882157836a6" />
+
+<img width="710" height="672" alt="Screenshot 2026-05-31 at 9 11 41 PM" src="https://github.com/user-attachments/assets/58dd0a1b-320d-44ac-b5c9-f53b5abc7183" />
+
