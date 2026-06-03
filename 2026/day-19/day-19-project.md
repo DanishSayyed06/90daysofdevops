@@ -9,6 +9,11 @@ Create `log_rotate.sh` that:
 4. Prints how many files were compressed and deleted
 5. Exits with an error if the directory doesn't exist
 
+<img width="894" height="530" alt="WhatsApp Image 2026-06-03 at 10 11 27 AM (1)" src="https://github.com/user-attachments/assets/c879b1d1-04cb-47b2-a873-5b8bbe4a2cc0" />
+
+<img width="639" height="88" alt="WhatsApp Image 2026-06-03 at 10 21 42 AM" src="https://github.com/user-attachments/assets/4e95570d-444f-4fe0-931e-2cf6c093462e" />
+
+
 
 
 ---
@@ -21,6 +26,12 @@ Create `backup.sh` that:
 4. Prints archive name and size
 5. Deletes backups older than 14 days from the destination
 6. Handles errors — exit if source doesn't exist
+
+
+<img width="616" height="912" alt="WhatsApp Image 2026-06-03 at 10 11 27 AM (6)" src="https://github.com/user-attachments/assets/dc18d514-bc6b-4d24-bf5b-bf4717570ee8" />
+
+<img width="882" height="202" alt="WhatsApp Image 2026-06-03 at 10 11 27 AM (5)" src="https://github.com/user-attachments/assets/0890b26e-100f-4e87-a67b-cd8c4bc54717" />
+
 
 ---
 
@@ -51,5 +62,8 @@ Create `maintenance.sh` that:
 4. Write the cron entry to run it daily at 1 AM
 - `0 1 * * *`
 
+<img width="798" height="883" alt="WhatsApp Image 2026-06-03 at 10 11 28 AM (1)" src="https://github.com/user-attachments/assets/a3c5bc78-1849-48d5-be1d-3180176931a7" />
+
+<img width="734" height="128" alt="WhatsApp Image 2026-06-03 at 10 11 28 AM" src="https://github.com/user-attachments/assets/12c2d182-1e11-4bcc-9d76-e94ca5306cfa" />
 
 ---
