@@ -6,6 +6,7 @@ Your script should:
 2. Exit with a clear error message if no argument is provided
 3. Exit with a clear error message if the file doesn't exist
 
+<img width="536" height="183" alt="Screenshot 2026-06-03 213228" src="https://github.com/user-attachments/assets/a8b6026b-46d3-4c78-b12e-5710f6363c47" />
 
 
 --- 
