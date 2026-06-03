@@ -52,7 +52,9 @@ Generate a summary report to a text file named `log_report_<date>.txt` (e.g., `l
 5. Top 5 error messages with their occurrence count
 6. List of critical events with line numbers
 
+<img width="1009" height="803" alt="Screenshot 2026-06-03 224036" src="https://github.com/user-attachments/assets/168c4d46-7065-4c04-b954-9ea581abd6c1" />
 
+<img width="985" height="661" alt="Screenshot 2026-06-03 224109" src="https://github.com/user-attachments/assets/292a546e-d743-479e-9c53-2ef398a1a69e" />
 
 --- 
 
