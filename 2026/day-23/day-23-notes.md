@@ -88,12 +88,16 @@ In your `devops-git-practice` repo, perform the following:
 
 
 3. Answer in your notes:
-   - What is the difference between clone and fork?
+
+    - What is the difference between clone and fork?
    * `clone` ---> Is to make a copy in computer where we can read study or edit but it’s just a local copy on our computer
    * `fork` --->  Is also create a copy in our personal git-hub repository under our name we have full ownership and permission to change it however we like
+
    - When would you clone vs fork?
-   *
+   * `clone` ---> I would clone it if i want a copy in my local
+   * `fork` ---> I would fork it if i want to make a copy in my Git-hub and with full access
+      
    - After forking, how do you keep your fork in sync with the original repo?
-     
+   * Yes! I keep my fork in sync with the orignal repo as code remains compatible with the latest updates 
 
 ---
