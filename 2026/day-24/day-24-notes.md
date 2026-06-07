@@ -26,9 +26,14 @@
 
 
 6. Answer in your notes:
-   - What is a fast-forward merge?
-   - When does Git create a merge commit instead?
-   - What is a merge conflict? (try creating one intentionally by editing the same line in both branches)
+   1. What is a fast-forward merge?
+   - A fast-forward merge occurs when the branch being merged has no new commits since it diverged from the main branch, allowing Git to simply move the branch pointer forward to the latest commit 
+   
+   2. When does Git create a merge commit instead?
+   - Git creates a merge commit when the branches have diverged, meaning both have new, unique commits since they split, requiring Git to combine the histories into a new common commit 
+   
+   3. What is a merge conflict? 
+   - Merge conflicts happen because the same file is edited in two branches.Git can’t figure out which version of a file to keep during a merge
 
 ---
 
@@ -55,10 +60,23 @@
 
 
 5. Answer in your notes:
-   - What does rebase actually do to your commits?
-   - How is the history different from a merge?
-   - Why should you **never rebase commits that have been pushed and shared** with others?
-   - When would you use rebase vs merge?
+   1. What does rebase actually do to your commits?
+   - rebase "rewrites history" by taking  branch commits and replaying them one by one on top of the latest version of main 
+   
+   2. How is the history different from a merge?
+   - A merge creates a new "merge commit" that ties two histories together
+   - Rebase creates entirely new commits for your work, resulting linear history without merge bubbles 
+   
+   3.  Why should you **never rebase commits that have been pushed and shared** with others?
+   
+   - It can cause a mess as its id becomes diffrent 
+   
+   4.  When would you use rebase vs merge?
+   
+   -  While working on diffrent branches we can use `merge`
+
+   - `rebse` can be use to maintain a linear history 
+
 
 ---
 
@@ -83,10 +101,16 @@
 
 
 6. Answer in your notes:
-   - What does squash merging do?
-   - When would you use squash merge vs regular merge?
-   - What is the trade-off of squashing?
-
+   1. What does squash merging do?
+   - squash combines all commit in a single commit in the branch we choose  
+   
+   2. When would you use squash merge vs regular merge?
+   
+   - If we have a multiple commit the we can use squash merge or regular merge 
+   
+   3. What is the trade-off of squashing?
+   
+   - This keeps the main branch history clean  
 ---
 
 ### Task 4: Git Stash — Hands-On
@@ -109,8 +133,14 @@
 
 
 8. Answer in your notes:
-   - What is the difference between `git stash pop` and `git stash apply`?
-   - When would you use stash in a real-world workflow?
+   1.  What is the difference between `git stash pop` and `git stash apply`?
+   
+   - `git stash pop` removes the changes from the stash list after applying them
+   
+   - `git stash apply` keeps the changes in the stash list, allowing you to re-apply them later if needed
+   
+   2. When would you use stash in a real-world workflow?
+   -  When i need to swith to other branch in case of emergency
 
 ---
 
@@ -127,8 +157,16 @@
 
 
 5. Answer in your notes:
-   - What does cherry-pick do?
-   - When would you use cherry-pick in a real project?
-   - What can go wrong with cherry-picking?
+   1. What does cherry-pick do?
+   
+   - Cherry-pick pick a particular commit with its id from branch 
+   
+   2. When would you use cherry-pick in a real project?
+   
+   - when there is fix in a code I would cherry-pick the commit 
+   
+   3. What can go wrong with cherry-picking?
+
+   -  Main factor is its Id it changes and can create a confusion 
 
 ---
