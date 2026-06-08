@@ -79,13 +79,98 @@ Create a comparison in your notes:
 
 1. **GitFlow** — develop, feature, release, hotfix branches
 
+* `develop` ---> Its Development environment the integration branch for new features
 
+* `main` ---> It contain production ready code 
+
+* `feature` ---> It is used to build a new feature and then merge in develop branch
+
+* `realease` ---> Its in a stage og preparing to deploy in production 
+
+* `hotfix` ---> Its use to fix the bug  
+
+
+```bash
+  
+
+(main)
+*------*-------*---------------------------------------------*
+|       \     /                                             /
+|        \   /                                             / 
+|         \ /                                             /
+|          *  (hotfix)                                   / 
+|           \                                (realease) /
+|            \                                  *------*
+|             \                                /        \
+|              \                              /          \
+|               \                            /            \
+|                \                          /              \
+|  (develop)      \                        /                \
+*---------*--------*----------------------*------------------*
+           \        \                    /  
+            \        \                  / 
+             \        \ (feature1)     / 
+              \        \              /
+               \        *------------*
+                \
+                 \  (feature 2)
+                  *------------*
+
+```
+ 
 2. **GitHub Flow** — simple, single main branch + feature branches
+
+```bash
+
+(main branch)                     
+*--------------*------------------------------------------*--------*
+                \                                        / 
+                 \                                      /   
+                  \                                    /  
+                   \       (pull request reviewed)    /
+                    \                  |             /
+                     *-----------------*------------*
+               (Pull request)                       (merge back)
+
+```
+
+
+- `cons` ---> It is not suitable for complex release cycles
+Less structured for big teams in project
+
+- `Pros` ---> Simple and lightweight and Easy to understand and manage
+
+
 3. **Trunk-Based Development** — everyone commits to main, short-lived branches
+
+```bash
+
+(main branch)
+
+*---------*---------*-------*---------*-----*---------*---------------*
+           \       /         \       /       \       /
+            \     /           \     /         \     /
+             \   /             \   /           \   /
+              \ /               \ /             \ /
+               *                 *               *         
+
+```
+
+* It is used for CI/CD
+
+- `Pros` --->  Much better deployment frequency and has faster recovery times
+- `cons` --->  The deployment should not done before testing  
+
 4. Answer:
    - Which strategy would you use for a startup shipping fast?
+   * Ill definitely go with Trunk Base Development
+
    - Which strategy would you use for a large team with scheduled releases?
+   * Ill use Git-flow strategy
+   
    - Which one does your favorite open-source project use? (check any repo on GitHub)
+   * https://github.com/temporalio/temporal
+   
 
 ---
 
