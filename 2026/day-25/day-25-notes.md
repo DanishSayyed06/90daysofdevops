@@ -4,6 +4,13 @@
 1. Make 3 commits in your practice repo (commit A, B, C)
 2. Use `git reset --soft` to go back one commit — what happens to the changes?
 
+<img width="667" height="421" alt="WhatsApp Image 2026-06-08 at 4 00 18 PM (1)" src="https://github.com/user-attachments/assets/5a6688f2-be04-4b6e-a4cb-67ddd3a31868" />
+
+<img width="604" height="80" alt="WhatsApp Image 2026-06-08 at 4 00 31 PM (1)" src="https://github.com/user-attachments/assets/078a2050-002b-4b34-b6dc-2c2dc9af62cc" />
+
+<img width="569" height="109" alt="WhatsApp Image 2026-06-08 at 4 00 31 PM (2)" src="https://github.com/user-attachments/assets/85155129-fe7f-4c8d-b0d8-b3771f844221" />
+
+
 
 
 - HEAD move back one commit and the file come back to stage area again 
@@ -11,10 +18,20 @@
 
 3. Re-commit, then use `git reset --mixed` to go back one commit — what happens now?
 
+<img width="547" height="86" alt="WhatsApp Image 2026-06-08 at 4 00 31 PM (3)" src="https://github.com/user-attachments/assets/1dc59def-c852-4435-80cc-d5651fae1c3a" />
+
+<img width="569" height="102" alt="WhatsApp Image 2026-06-08 at 4 00 31 PM (4)" src="https://github.com/user-attachments/assets/dd3080b2-9f3d-408e-8d13-bdd300947fb6" />
+
+<img width="772" height="188" alt="WhatsApp Image 2026-06-08 at 4 00 31 PM (5)" src="https://github.com/user-attachments/assets/2b7ee089-0011-4545-97de-4a9e526babc5" />
+
 - HEAD move back to unstage area 
 - Changes will stayed in working directory
 
 4. Re-commit, then use `git reset --hard` to go back one commit — what happens this time?
+
+<img width="612" height="82" alt="WhatsApp Image 2026-06-08 at 4 00 31 PM (6)" src="https://github.com/user-attachments/assets/5da3872d-c056-49d7-8089-4d9e2946b830" />
+
+<img width="593" height="68" alt="WhatsApp Image 2026-06-08 at 4 00 31 PM (7)" src="https://github.com/user-attachments/assets/b6cd2ee0-9aab-4ebf-a8fd-e9f1a24817b0" />
 
 
 - This Discard all changes from the laste commit completly erased from working directory 
@@ -40,8 +57,7 @@
    - `--mixed` ---> Ill use it to modify the changes  
    
    4.  Should you ever use `git reset` on commits that are already pushed?
-   
-   No. It  will rewrite history and break the workflow 
+   -  No. It  will rewrite history and break the workflow 
 
 ---
 
@@ -49,6 +65,16 @@
 1. Make 3 commits (commit X, Y, Z)
 2. Revert commit Y (the middle one) — what happens?
 3. Check `git log` — is commit Y still in the history?
+
+<img width="602" height="385" alt="WhatsApp Image 2026-06-08 at 4 00 31 PM (9)" src="https://github.com/user-attachments/assets/4982a043-2aa5-458c-9694-97371566b9be" />
+
+<img width="636" height="115" alt="WhatsApp Image 2026-06-08 at 4 00 31 PM (10)" src="https://github.com/user-attachments/assets/f6eed863-3f62-486d-b0e5-cedbf161c799" />
+
+<img width="602" height="156" alt="WhatsApp Image 2026-06-08 at 4 00 31 PM (12)" src="https://github.com/user-attachments/assets/0e8d8a87-e703-4bf0-b7c9-067efbffff69" />
+
+
+
+
 4. Answer in your notes:
    - How is `git revert` different from `git reset`?
    * `gitrevert` ---> It create new commit to undo changes and it preserve history 
