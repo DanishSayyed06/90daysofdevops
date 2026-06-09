@@ -1,3 +1,8 @@
+
+# Day 26 – GitHub CLI: Manage GitHub from Your Terminal
+
+--- 
+
 ### Task 1: Install and Authenticate
 1. Install the GitHub CLI on your machine
 2. Authenticate with your GitHub account
