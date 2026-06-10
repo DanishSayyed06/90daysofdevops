@@ -26,7 +26,7 @@ Before making changes, assess where you stand:
    - Links to your important repos
    - How to reach you (LinkedIn, Twitter, email — whatever you're comfortable sharing)
 4. Keep it clean and simple — don't overload it with badges and widgets
-
+- Done 
 ---
 
 ### Task 3: Organize Your Repositories
@@ -55,19 +55,24 @@ For **every repo**, make sure you have:
 - A proper **README.md** explaining what's inside
 - A relevant `.gitignore`
 
+- Done
 ---
 
 ### Task 4: Pin Your Best Repos
 1. Go to your GitHub profile and select **6 pinned repositories**
 2. Choose repos that best represent your work and learning
 3. Make sure each pinned repo has a description and README
-
+- Done
 ---
 
 ### Task 6: Before & After
-1. Take a screenshot of your GitHub profile **before** you started today
-2. Take a screenshot **after** all your changes
-3. Add both to your `day-27-notes.md`
-4. Write 3 things you improved and why
+
+
+<img width="1440" height="772" alt="Screenshot 2026-06-10 at 7 39 13 PM" src="https://github.com/user-attachments/assets/a9b20c55-26e6-4e39-8014-9fd525d7ee23" />
+
+--- 
+
+<img width="1440" height="717" alt="Screenshot 2026-06-10 at 11 34 16 PM" src="https://github.com/user-attachments/assets/1b738dd4-a99d-4df3-8185-0bae41e07929" />
+
 
 ---
