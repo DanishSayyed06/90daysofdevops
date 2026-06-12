@@ -79,7 +79,10 @@ Answer these from memory (no Googling). Then verify your answers:
 - `git pill` ---> It pull the changes from the branch merge it
 - `git fetch` ---> gets all the changes of remote but doesn't merge them
 10. What is LVM and why would you use it instead of regular partitions?
-- 
+- LVM is a Logical Volume Manager where we attach the extra storage for our instance
+  and the storage that we attach we can cut into a small piece and we can utilize it 
+- I would use it when i am out of storage i will attach extra storage to my instance 
+   
 
 ---
 
@@ -92,16 +95,14 @@ Answer these from memory (no Googling). Then verify your answers:
 - Yes
 4. Verify your GitHub profile and repos are clean (from Day 27)
 - Yes
+
 ---
 
 ### Task 5: Teach It Back
-Pick **one topic** you've learned and write a short explanation (5-10 lines) as if you're teaching it to someone who has never heard of it. Add it to your `day-28-notes.md`.
 
-Examples:
+
 - Explain Git branching to a non-developer
-- Explain file permissions to a new Linux user
-- Explain what a crontab is and why sysadmins use it
 
-Teaching is the best test of understanding.
+- Git branches reflicts as same the branhes  Git allows us to make a copy of a document to try new ideas or fixes safely without disturbing the Main branch (Root) You can make changes to the code test the code and commit changes in the branch, and when they're ready we can  merge them back into the main project thats how the Git branching work 
 
 ---
