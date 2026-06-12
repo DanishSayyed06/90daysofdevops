@@ -1,15 +1,29 @@
 ### Task 1: What is Docker?
-Research and write short notes on:
-- What is a container and why do we need them?
-- Containers vs Virtual Machines — what's the real difference?
-- What is the Docker architecture? (daemon, client, images, containers, registry)
 
-Draw or describe the Docker architecture in your own words.
+Research and write short notes on:
+
+- What is a container and why do we need them?
+* A container is a lightweight image of software that package and bundles an application with all its dependencies, ensuring it runs reliably and consistently in any environment
+
+- Containers vs Virtual Machines — what's the real difference?
+* Virtual machines virtualize the hardware to run operating systems, while containers virtualize the operating system to share the host's kernel, making them significantly faster and more lightweight as compare to virtual machines
+
+- What is the Docker architecture? (daemon, client, images, containers, registry)
+* Docker Client → sends commands
+* Docker Daemon → manages containers
+* Docker Images → templates
+* Docker Containers → running instances
+* Docker Registry (Docker Hub) → stores images
+
+
 
 ---
 
 ### Task 2: Install Docker
 1. Install Docker on your machine (or use a cloud instance)
+
+- https://docs.docker.com/engine/install/ubuntu/
+
 2. Verify the installation
 
 - <img width="619" height="606" alt="1" src="https://github.com/user-attachments/assets/b7d67e3e-0f27-45d4-a00c-6ada609a3fd9" />
@@ -61,6 +75,10 @@ Draw or describe the Docker architecture in your own words.
 
 5. Run a command **inside** a running container
 
-- 
+<img width="1051" height="161" alt="WhatsApp Image 2026-06-12 at 8 02 50 PM (12)" src="https://github.com/user-attachments/assets/e9f5bdf8-5d66-48fe-9b95-cc5de3b40ad4" />
+
+<img width="1432" height="769" alt="Screenshot 2026-06-12 at 10 22 51 PM" src="https://github.com/user-attachments/assets/3da93979-5e07-47bb-8150-1ea6daea1aa0" />
+
+
 
 ---
