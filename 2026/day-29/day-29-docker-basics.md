@@ -1,13 +1,23 @@
+# Day 29 – Introduction to Docker
+
+## Why This Matters for DevOps
+
+- Docker is the foundation of modern deployment. 
+- Every CI/CD pipeline, Kubernetes cluster,and microservice - architecture starts with containers. 
+- Today you took the first step
+--- 
+
 ### Task 1: What is Docker?
 
+--- 
 Research and write short notes on:
 
 - What is a container and why do we need them?
 * A container is a lightweight image of software that package and bundles an application with all its dependencies, ensuring it runs reliably and consistently in any environment
-
+--- 
 - Containers vs Virtual Machines — what's the real difference?
 * Virtual machines virtualize the hardware to run operating systems, while containers virtualize the operating system to share the host's kernel, making them significantly faster and more lightweight as compare to virtual machines
-
+--- 
 - What is the Docker architecture? (daemon, client, images, containers, registry)
 * Docker Client → sends commands
 * Docker Daemon → manages containers
