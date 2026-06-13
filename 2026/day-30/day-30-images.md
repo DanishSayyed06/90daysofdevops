@@ -6,6 +6,10 @@
 
 
 2. List all images on your machine — note the sizes
+
+<img width="1141" height="202" alt="WhatsApp Image 2026-06-13 at 8 41 39 PM" src="https://github.com/user-attachments/assets/aa1b565d-8d7c-4cfd-9157-1ba66aff53d1" />
+
+
 3. Compare `ubuntu` vs `alpine` — why is one much smaller?
 4. Inspect an image — what information can you see?
 
