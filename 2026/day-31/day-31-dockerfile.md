@@ -48,6 +48,9 @@ Create a new Dockerfile that uses **all** of these instructions:
 
 3. Write in your notes: When would you use CMD vs ENTRYPOINT?
 
+- `CMD` ---> For default arguments that can be easily overridden
+- `ENTRYPOINT` --->  To make the container run as a specific executable that should not be changed.
+
 ---
 
 ### Task 4: Build a Simple Web App Image
