@@ -32,7 +32,9 @@
 
 2. Each line is a **layer**. Note how some layers show sizes and some show 0B
 
-
+- Layers with a size (RUN, COPY) physically modify the filesystem by adding or changing actual files.
+- Layers showing 0B (ENV, CMD) only update metadata or configuration settings, which require no storage space.
+- The <missing> tag appears because those layers were built as part of an intermediate process and do not have a unique identifiable layer ID
 
 3. Write in your notes: What are layers and why does Docker use them?
 
@@ -41,7 +43,7 @@
 ---
 
 ### Task 3: Container Lifecycle
-Practice the full lifecycle on one container:
+
 1. **Create** a container (without starting it)
 <img width="1122" height="181" alt="WhatsApp Image 2026-06-13 at 8 41 39 PM (4)" src="https://github.com/user-attachments/assets/136a38e8-a50c-45af-879d-244ddc04f9a0" />
 
