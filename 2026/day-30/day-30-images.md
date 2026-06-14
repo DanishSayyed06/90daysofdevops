@@ -12,7 +12,8 @@
 
 3. Compare `ubuntu` vs `alpine` — why is one much smaller?
 
-`Ubuntu` is a linux distribution designed for broad compatibility and ease of use, whereas `Alpine` is a security-oriented, minimalist distribution
+- `Ubuntu` is a linux distribution designed for broad compatibility and ease of use
+- `Alpine` is a security-oriented, minimalist distribution
 
 4. Inspect an image — what information can you see?
 
