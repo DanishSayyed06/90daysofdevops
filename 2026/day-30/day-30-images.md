@@ -11,6 +11,9 @@
 
 
 3. Compare `ubuntu` vs `alpine` — why is one much smaller?
+
+`Ubuntu` is a linux distribution designed for broad compatibility and ease of use, whereas `Alpine` is a security-oriented, minimalist distribution
+
 4. Inspect an image — what information can you see?
 
 <img width="1003" height="832" alt="WhatsApp Image 2026-06-13 at 8 41 39 PM (1)" src="https://github.com/user-attachments/assets/22d865d2-8590-44a7-a6e1-f20080640b09" />
@@ -32,6 +35,8 @@
 
 
 3. Write in your notes: What are layers and why does Docker use them?
+
+- Docker layers are read-only file system modifications stacked on each other to enable efficient image reuse, reduced storage usage, and have the fastest build time.
 
 ---
 
