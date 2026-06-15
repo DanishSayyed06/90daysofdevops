@@ -87,10 +87,10 @@ Create a new Dockerfile that uses **all** of these instructions:
 2. Reorder your Dockerfile so that frequently changing lines come **last**
 3. Write in your notes: Why does layer order matter for build speed?
 
-- Docker uses caching: Each instruction creates a layer that is stored and reused based on its unique hash to avoid redundant work.
+- Docker uses caching Each instruction creates a layer that is stored and reused based on its unique hash to avoid redundant work.
 
-- Layer order matters: A change in an early instruction invalidates the cache for that step and every subsequent step.
+- Layer order matters A change in an early instruction invalidates the cache for that step and every subsequent step.
 
-- Frequently changing steps should be last: Placing volatile commands at the end protects the preceding, stable, and time-consuming layers from being unnecessarily rebuilt.
+- Frequently changing steps should be last Placing volatile commands at the end protects the preceding, stable, and time-consuming layers from being unnecessarily rebuilt.
 
 ---
