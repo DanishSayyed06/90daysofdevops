@@ -121,3 +121,28 @@ Write in your notes: What is the difference between a named volume and a bind mo
 4. Write in your notes: Why does custom networking allow name-based communication but the default bridge doesn't?
 
 ---
+
+### Task 6: Put It Together
+1. Create a custom network
+
+<img width="1294" height="227" alt="Screenshot 2026-06-16 at 11 58 38 AM" src="https://github.com/user-attachments/assets/9baa1f4c-7964-4939-829d-2416ee158383" />
+
+
+2. Run a **database container** (MySQL/Postgres) on that network with a volume for data
+
+<img width="1438" height="671" alt="Screenshot 2026-06-16 at 12 03 50 PM" src="https://github.com/user-attachments/assets/d59e0c56-d595-4c7b-b3ad-d06f50d16036" />
+
+
+3. Run an **app container** (use any image) on the same network
+
+<img width="1169" height="401" alt="Screenshot 2026-06-16 at 12 06 19 PM" src="https://github.com/user-attachments/assets/89bad35c-d508-45ef-a0d6-d5f03f1b693a" />
+
+<img width="1440" height="271" alt="Screenshot 2026-06-16 at 12 15 04 PM" src="https://github.com/user-attachments/assets/932d9f8e-8759-4c58-846d-a7450b962549" />
+
+
+4. Verify the app container can reach the database by container name
+
+<img width="1440" height="468" alt="Screenshot 2026-06-16 at 12 22 34 PM" src="https://github.com/user-attachments/assets/192448ab-4042-44ca-a528-51b6569a64fd" />
+
+
+---
