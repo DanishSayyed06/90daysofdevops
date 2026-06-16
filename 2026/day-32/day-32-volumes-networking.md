@@ -59,7 +59,6 @@ Write what happened and why.
 5. Is the data still there?
 - yes because volume was attach
 
-**Verify:** `docker volume ls`, `docker volume inspect`
 
 ---
 
@@ -68,6 +67,16 @@ Write what happened and why.
 2. Run an Nginx container and **bind mount** your folder to the Nginx web directory
 3. Access the page in your browser
 4. Edit the `index.html` on your host — refresh the browser
+
+<img width="698" height="405" alt="WhatsApp Image 2026-06-16 at 2 44 17 AM (17)" src="https://github.com/user-attachments/assets/1c108809-4818-4720-85ac-fd9743fd04c7" />
+
+<img width="908" height="191" alt="WhatsApp Image 2026-06-16 at 2 44 17 AM (21)" src="https://github.com/user-attachments/assets/a4e72eb9-7b29-4219-80a4-ea4206ac82b6" />
+
+<img width="1130" height="523" alt="WhatsApp Image 2026-06-16 at 2 44 17 AM (25)" src="https://github.com/user-attachments/assets/0e803c9f-959b-4049-a01f-1533461c707c" />
+
+<img width="1143" height="532" alt="WhatsApp Image 2026-06-16 at 2 44 17 AM (24)" src="https://github.com/user-attachments/assets/3af6ff5f-1f35-4bba-977b-c7d6936cc79a" />
+
+
 
 Write in your notes: What is the difference between a named volume and a bind mount?
 
@@ -79,12 +88,36 @@ Write in your notes: What is the difference between a named volume and a bind mo
 3. Run two containers on the default bridge — can they ping each other by **name**?
 4. Run two containers on the default bridge — can they ping each other by **IP**?
 
+<img width="436" height="191" alt="WhatsApp Image 2026-06-16 at 2 44 17 AM (26)" src="https://github.com/user-attachments/assets/79069fa8-83c7-4a26-b491-ae75e29bf793" />
+
+<img width="776" height="380" alt="WhatsApp Image 2026-06-16 at 2 44 17 AM (27)" src="https://github.com/user-attachments/assets/9abaa24f-23fa-4d30-8015-c03415f57893" />
+
+
+<img width="692" height="176" alt="WhatsApp Image 2026-06-16 at 2 44 17 AM (29)" src="https://github.com/user-attachments/assets/35dd5bf1-f09c-4f70-a74b-14aed47cf8b7" />
+
+<img width="508" height="170" alt="WhatsApp Image 2026-06-16 at 2 44 17 AM (31)" src="https://github.com/user-attachments/assets/28632775-f7e6-4b91-ae87-4d543c39fc94" />
+<img width="393" height="103" alt="WhatsApp Image 2026-06-16 at 2 44 17 AM (30)" src="https://github.com/user-attachments/assets/23c069e5-d679-407b-9379-486b5c1d9037" />
+
+
+
 ---
 
 ### Task 5: Custom Networks
 1. Create a custom bridge network called `my-app-net`
+
+<img width="521" height="76" alt="WhatsApp Image 2026-06-16 at 2 44 17 AM (32)" src="https://github.com/user-attachments/assets/e133d040-051d-4eb3-ac1b-fb8e0dbd83a4" />
+
+
 2. Run two containers on `my-app-net`
+
+<img width="619" height="137" alt="WhatsApp Image 2026-06-16 at 2 44 17 AM (34)" src="https://github.com/user-attachments/assets/d709665a-97ac-4911-af6c-25e49d3dc9e1" />
+
+<img width="584" height="146" alt="WhatsApp Image 2026-06-16 at 2 44 17 AM (35)" src="https://github.com/user-attachments/assets/dce519e5-796e-46f3-ba89-c200e8a20040" />
+
+
 3. Can they ping each other by **name** now?
+- Yes  as they are connected in a network 
+
 4. Write in your notes: Why does custom networking allow name-based communication but the default bridge doesn't?
 
 ---
