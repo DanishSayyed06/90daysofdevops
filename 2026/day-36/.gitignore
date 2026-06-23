@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+.venv
+venv/
+ENV/
+
+# Docker
+.dockerignore
+*.log
+
+# System files
+.DS_Store
+.vscode/
+.idea/
