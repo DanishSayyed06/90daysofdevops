@@ -9,6 +9,11 @@ Choose **one** of these (or use your own project):
 
 If you don't have an app, clone a simple open-source one and Dockerize it.
 
+<img width="1440" height="900" alt="Screenshot 2026-06-23 at 12 00 25 AM" src="https://github.com/user-attachments/assets/76b90e3d-b213-47fe-815c-031173ad41cb" />
+
+
+`Done`
+
 ---
 
 ### Task 2: Write the Dockerfile
@@ -19,6 +24,8 @@ If you don't have an app, clone a simple open-source one and Dockerize it.
 5. Add a `.dockerignore` file
 
 Build and test it locally.
+
+`Done`
 
 ---
 
@@ -33,6 +40,10 @@ Write a `docker-compose.yml` that includes:
 
 Run `docker compose up` and verify everything works together.
 
+   <img width="1439" height="381" alt="Screenshot 2026-06-24 at 12 00 27 AM" src="https://github.com/user-attachments/assets/6fed62cc-7f31-4090-9888-ed4b3ed6fc29" />
+
+
+`Done`
 ---
 
 ### Task 4: Ship It
@@ -43,6 +54,10 @@ Run `docker compose up` and verify everything works together.
    - What the app does
    - How to run it with Docker Compose
    - Any environment variables needed
+
+<img width="1086" height="263" alt="Screenshot 2026-06-24 at 12 25 07 AM" src="https://github.com/user-attachments/assets/db7bd4ef-827d-4ca0-9e68-66396e1f9a46" />
+
+`Done`
 
 ---
 
