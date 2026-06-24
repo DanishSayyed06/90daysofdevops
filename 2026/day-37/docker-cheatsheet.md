@@ -72,6 +72,28 @@ Pick **2 topics** you marked as shaky and redo the hands-on tasks from that day.
 - `CMD`---> provides default arguments that can be overridden at runtime
 - `ENTRYPOINT` ---> defines the main executable
 
+* Write a docker-compose.yml for a multi-container app
+
+``` bash
+services:
+  web:
+    image: my-web-app:latest
+    ports:
+      - "5000:5000"
+    depends_on:
+      - redis
+  redis:
+    image: redis:alpine
+
+```
+
+- `services` ---> Defines different containers that make up app
+
+- `web`---> It represents application container, mapping host port 5000 to container port 5000
+
+- `depends_on` ---> It tells Docker to start the redis container before the web container
+
+- `redis` ---> Uses a pre-built image from Docker Hub to provide the database service
 
 ---
 
