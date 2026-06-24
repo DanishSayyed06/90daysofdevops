@@ -61,7 +61,8 @@ Create `docker-cheatsheet.md` organized by category:
 - **Cleanup commands** — prune, system df
 - **Dockerfile instructions** — FROM, RUN, COPY, WORKDIR, EXPOSE, CMD, ENTRYPOINT
 
-Keep it short — one line per command, something you'd actually reference on the job.
+<img width="1024" height="1024" alt="magnific_conversation-with-gemini-_J91PxbNOq4" src="https://github.com/user-attachments/assets/ae7d1098-962e-4928-bd5d-957d95f7c855" />
+
 
 ---
 
