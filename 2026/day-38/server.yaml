@@ -1,0 +1,22 @@
+---
+server:
+  name: nginx_server
+  ip: 127.0.0.1
+  port: 8080
+  boot: >
+    systemctl enable nginx && systemctl start nginx
+  startup_script: |
+    sudo apt-get update
+    echo "=====Installing nginx====="
+    sudo apt install nginx -y
+    sudo systemctl status nginx
+    echo "==== nginx Install ===="
+  database:
+    host: My_db
+    name: My_db
+    credentials:
+      user: Danish
+      password: "@#%^&**"
+
+
+hobbies: ["reading-Books", "Watching-movies"]

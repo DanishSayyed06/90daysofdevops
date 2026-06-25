@@ -1,0 +1,23 @@
+# ======== Task 1 ==============
+---
+name: Danish Sayyed
+
+role: Devops Engineer
+
+experience_years: 1 year
+
+learning: true
+
+--- 
+
+# ========= Task 2 =============
+
+
+tools:
+  - Docker
+  - k8s
+  - Anisble
+  - Jenkins
+  - Terraform
+
+---
