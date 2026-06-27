@@ -88,7 +88,25 @@ Include at least 3 stages. Hand-drawn and photographed is perfectly fine.
 1. Open any popular open-source repo on GitHub (Kubernetes, React, FastAPI — pick one you know)
 2. Find their `.github/workflows/` folder
 3. Open one workflow YAML file
+
+https://github.com/kubernetes/minikube/blob/master/.github/workflows/build.yml
+
+
+
+
 4. Write in your notes:
+
    - What triggers it?
+      - `Manual trigger` workflow_dispatch
+      - push on master branch only if changes go.mod , *.go file ,Makefile
+
    - How many jobs does it have?
+      - `3 jobs` ---> build_minikube, lint, unit_test
+
    - What does it do? (best guess)
+      - This workflow automates the CI pipeline for the Minikube project.
+      - `Builds` ---> Compiles the project into cross-platform binaries and saves them as a downloadable package (artifact)
+      - `Lints` ---> Automatically checks your code for style errors and best practices
+      - `Tests`---> Runs the project’s unit tests to ensure existing features haven't broken
+    
+--- 
