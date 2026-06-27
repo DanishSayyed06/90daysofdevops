@@ -33,13 +33,13 @@ Push it. Go to the **Actions** tab on GitHub and watch it run.
 
 ### Task 3: Understand the Anatomy
 Look at your workflow file and write in your notes what each key does:
-`on` ---> Defines the triggers for the workflow
-`jobs` ---> A container for all the tasks that make up your workflow    
-`runs-on` ---> Sets the OS/virtual machine environment
-`steps` ---> The sequence of actions or commands to execute
-`uses` ---> Calls a pre-built Action
-`run` ---> Executes a custom script or terminal command
-`name` Provides a descriptive label for a step to help you identify it in the GitHub UI logs
+- `on` ---> Defines the triggers for the workflow
+- `jobs` ---> A container for all the tasks that make up your workflow    
+- `runs-on` ---> Sets the OS/virtual machine environment
+- `steps` ---> The sequence of actions or commands to execute
+- `uses` ---> Calls a pre-built Action
+- `run` ---> Executes a custom script or terminal command
+- `name` Provides a descriptive label for a step to help you identify it in the GitHub UI logs
 
 ---
 
