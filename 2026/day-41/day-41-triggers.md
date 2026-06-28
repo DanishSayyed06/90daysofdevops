@@ -7,7 +7,6 @@
 4. Create a new branch, push a commit, and open a PR
 5. Watch the workflow run automatically
 
-**Verify:** Does it show up on the PR page?
 
 <img width="1376" height="687" alt="Screenshot 2026-06-28 at 10 13 49 PM" src="https://github.com/user-attachments/assets/dd9791d1-5fd0-4686-88d7-fd8cc07a1036" />
 <img width="1360" height="741" alt="Screenshot 2026-06-28 at 10 12 50 PM" src="https://github.com/user-attachments/assets/849ebd6e-5dcb-4d23-aa17-f4fa2f4894c0" />
@@ -23,7 +22,7 @@
 2. Set it to run every day at midnight UTC
 3. Write in your notes: What is the cron expression for every Monday at 9 AM?
 
-
+- `Done`
 
 ---
 
@@ -53,7 +52,6 @@ Create `.github/workflows/matrix.yml` that:
 
 
 
-Then extend the matrix to also include 2 operating systems — how many total jobs run now?
 
 ---
 
