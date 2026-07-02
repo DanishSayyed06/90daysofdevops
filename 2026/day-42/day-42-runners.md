@@ -87,10 +87,10 @@ Fill this in your notes:
 
 | | GitHub-Hosted | Self-Hosted |
 |---|---|---|
-| Who manages it? | ? | ? |
-| Cost | ? | ? |
-| Pre-installed tools | ? | ? |
-| Good for | ? | ? |
-| Security concern | ? | ? |
+| Who manages it? | GitHub | User |
+| Cost | Part of GitHub plan | Pay as per your AWS EC2 compute/storage |
+| Pre-installed tools | Everything pre-installed | Install Gh |
+| Good for | Ease of use (plug & play) | Full control & specific AWS network access |
+| Security concern | GitHub's responsibility | Our responsibility (patching/IAM) |
 
 ---
